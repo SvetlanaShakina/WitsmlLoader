@@ -13,7 +13,9 @@ mvn clean package
 Перед запуском необходимо указать параметры подключения к БД в файле application.properties в src/main/resources/:
 
 db.url=jdbc:postgresql://localhost:5432/your_database
+
 db.user=your_db_user
+
 db.password=your_db_password
 
 ## Запуск
